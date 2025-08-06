@@ -46,6 +46,13 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import newBlockImage from './newblocks/newblocks.png';
+import newBlockButtonImage from './newblocks/newblocks-small.png';
+
+import newMicrobitImage from './newmicrobit/newmicrobit.png';
+import newMicrobitButtonImage from './newmicrobit/newmicrobit-small.png';
+
+
 export default [
     {
         name: (
@@ -318,4 +325,68 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
     }
+,
+    {
+        name: 'NewMicrobit',
+        extensionId: 'newmicrobit',
+        collaborator: 'Me',
+        iconURL: newMicrobitImage,
+        insetIconURL: newMicrobitButtonImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New microbit."
+                description="my block"
+                id="gui.extension.newmicrobit.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+
+    }
+
+,
+    {
+        name: 'MES_LED',
+        extensionId: 'meshled',
+        collaborator: 'Me',
+        iconURL: newBlockImage,
+        insetIconURL: newBlockButtonImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New blocks."
+                description="my block"
+                id="gui.extension.meshled.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    }
+
+ ,
+    {
+        name: 'MESH_BRIGHTNESS',
+        extensionId: 'meshbrightness',
+        collaborator: 'Me',
+        iconURL: newBlockImage,
+        insetIconURL: newBlockButtonImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New blocks."
+                description="my block"
+                id="gui.extension.meshbrightness.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    }
+
 ];
