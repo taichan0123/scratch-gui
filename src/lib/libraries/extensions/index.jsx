@@ -389,4 +389,27 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     }
 
+,
+    {
+        name: 'MESH_GPIO',
+        extensionId: 'meshgpio',
+        collaborator: 'Me',
+        iconURL: newBlockImage,
+        insetIconURL: newBlockButtonImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New blocks."
+                description="my block"
+                id="gui.extension.newblocks.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+
+    }
+
+
 ];
